@@ -1,63 +1,59 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="ソース ファイル">
+    <Filter Include="cuda">
+      <UniqueIdentifier>{4ac97788-ab59-4754-8363-9456b6629d85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="ヘッダー ファイル">
+    <Filter Include="header">
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
-    <Filter Include="リソース ファイル">
-      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
-      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
-    </Filter>
-    <Filter Include="cuda">
-      <UniqueIdentifier>{4ac97788-ab59-4754-8363-9456b6629d85}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\rply.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClInclude>
     <ClInclude Include="src\3dregistration.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="src\algebra.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="src\engine.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>header</Filter>
     </ClInclude>
     <ClInclude Include="src\orbcam.h">
-      <Filter>ヘッダー ファイル</Filter>
+      <Filter>header</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\algebra.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="src\emicp_cpu.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="src\engine.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="src\findRTfromS.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="src\icp.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="src\main.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="src\orbcam.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClCompile>
     <ClCompile Include="src\rply.c">
-      <Filter>ソース ファイル</Filter>
+      <Filter>source</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
