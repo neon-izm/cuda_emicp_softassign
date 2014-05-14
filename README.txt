@@ -1,4 +1,4 @@
-CUDA-based implementations of Softassign and EM-ICP, CVPR2010 Demo
+﻿CUDA-based implementations of Softassign and EM-ICP, CVPR2010 Demo
 http://home.hiroshima-u.ac.jp/tamaki/study/cuda_softassign_emicp/
 
 Toru Tamaki, Miho Abe, Bisser Raytchev, Kazufumi Kaneda, Marcos Slomp (Hiroshima University, Japan)
@@ -10,13 +10,14 @@ Fri Apr  5 18:08:45 JST 2013
 
 * Requirements
 
-CUDA 5.0
+CUDA 5.0 or higher
 
 
 * How to use the demo application
 
-** Windows : sorry, we don't have it
-
+** Windows : open vcxproj and build
+(Only test with CUDA6.0)
+https://developer.nvidia.com/cuda-downloads
 ** Fedore 16 (x86_64)
 
   $ ./src/CUDA_EMICP_SOFTASSIGN --help
